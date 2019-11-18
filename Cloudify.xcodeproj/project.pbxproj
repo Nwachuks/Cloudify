@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D127427B2382B23400D05056 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D127427A2382B23400D05056 /* AppDelegate.swift */; };
+		D127427D2382B23400D05056 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D127427C2382B23400D05056 /* ViewController.swift */; };
+		D12742802382B23400D05056 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D127427E2382B23400D05056 /* Main.storyboard */; };
+		D12742822382B23800D05056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D12742812382B23800D05056 /* Assets.xcassets */; };
+		D12742852382B23800D05056 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12742832382B23800D05056 /* LaunchScreen.storyboard */; };
+		D12742902382B23800D05056 /* CloudifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D127428F2382B23800D05056 /* CloudifyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D127428C2382B23800D05056 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D127426F2382B23400D05056 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D12742762382B23400D05056;
+			remoteInfo = Cloudify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D12742772382B23400D05056 /* Cloudify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cloudify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D127427A2382B23400D05056 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D127427C2382B23400D05056 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D127427F2382B23400D05056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D12742812382B23800D05056 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D12742842382B23800D05056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D12742862382B23800D05056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D127428B2382B23800D05056 /* CloudifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D127428F2382B23800D05056 /* CloudifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudifyTests.swift; sourceTree = "<group>"; };
+		D12742912382B23800D05056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D12742742382B23400D05056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12742882382B23800D05056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D127426E2382B23400D05056 = {
+			isa = PBXGroup;
+			children = (
+				D12742792382B23400D05056 /* Cloudify */,
+				D127428E2382B23800D05056 /* CloudifyTests */,
+				D12742782382B23400D05056 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D12742782382B23400D05056 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D12742772382B23400D05056 /* Cloudify.app */,
+				D127428B2382B23800D05056 /* CloudifyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D12742792382B23400D05056 /* Cloudify */ = {
+			isa = PBXGroup;
+			children = (
+				D127427A2382B23400D05056 /* AppDelegate.swift */,
+				D127427C2382B23400D05056 /* ViewController.swift */,
+				D127427E2382B23400D05056 /* Main.storyboard */,
+				D12742812382B23800D05056 /* Assets.xcassets */,
+				D12742832382B23800D05056 /* LaunchScreen.storyboard */,
+				D12742862382B23800D05056 /* Info.plist */,
+			);
+			path = Cloudify;
+			sourceTree = "<group>";
+		};
+		D127428E2382B23800D05056 /* CloudifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				D127428F2382B23800D05056 /* CloudifyTests.swift */,
+				D12742912382B23800D05056 /* Info.plist */,
+			);
+			path = CloudifyTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D12742762382B23400D05056 /* Cloudify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12742942382B23800D05056 /* Build configuration list for PBXNativeTarget "Cloudify" */;
+			buildPhases = (
+				D12742732382B23400D05056 /* Sources */,
+				D12742742382B23400D05056 /* Frameworks */,
+				D12742752382B23400D05056 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cloudify;
+			productName = Cloudify;
+			productReference = D12742772382B23400D05056 /* Cloudify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D127428A2382B23800D05056 /* CloudifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12742972382B23800D05056 /* Build configuration list for PBXNativeTarget "CloudifyTests" */;
+			buildPhases = (
+				D12742872382B23800D05056 /* Sources */,
+				D12742882382B23800D05056 /* Frameworks */,
+				D12742892382B23800D05056 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D127428D2382B23800D05056 /* PBXTargetDependency */,
+			);
+			name = CloudifyTests;
+			productName = CloudifyTests;
+			productReference = D127428B2382B23800D05056 /* CloudifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D127426F2382B23400D05056 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Coded Professor";
+				TargetAttributes = {
+					D12742762382B23400D05056 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					D127428A2382B23800D05056 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = D12742762382B23400D05056;
+					};
+				};
+			};
+			buildConfigurationList = D12742722382B23400D05056 /* Build configuration list for PBXProject "Cloudify" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D127426E2382B23400D05056;
+			productRefGroup = D12742782382B23400D05056 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D12742762382B23400D05056 /* Cloudify */,
+				D127428A2382B23800D05056 /* CloudifyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D12742752382B23400D05056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12742852382B23800D05056 /* LaunchScreen.storyboard in Resources */,
+				D12742822382B23800D05056 /* Assets.xcassets in Resources */,
+				D12742802382B23400D05056 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12742892382B23800D05056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D12742732382B23400D05056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D127427D2382B23400D05056 /* ViewController.swift in Sources */,
+				D127427B2382B23400D05056 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12742872382B23800D05056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12742902382B23800D05056 /* CloudifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D127428D2382B23800D05056 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D12742762382B23400D05056 /* Cloudify */;
+			targetProxy = D127428C2382B23800D05056 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D127427E2382B23400D05056 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D127427F2382B23400D05056 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D12742832382B23800D05056 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D12742842382B23800D05056 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D12742922382B23800D05056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D12742932382B23800D05056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D12742952382B23800D05056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PBYB2A9889;
+				INFOPLIST_FILE = Cloudify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codedprofessor.Cloudify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D12742962382B23800D05056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PBYB2A9889;
+				INFOPLIST_FILE = Cloudify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codedprofessor.Cloudify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D12742982382B23800D05056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PBYB2A9889;
+				INFOPLIST_FILE = CloudifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codedprofessor.CloudifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cloudify.app/Cloudify";
+			};
+			name = Debug;
+		};
+		D12742992382B23800D05056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PBYB2A9889;
+				INFOPLIST_FILE = CloudifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codedprofessor.CloudifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cloudify.app/Cloudify";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D12742722382B23400D05056 /* Build configuration list for PBXProject "Cloudify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12742922382B23800D05056 /* Debug */,
+				D12742932382B23800D05056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12742942382B23800D05056 /* Build configuration list for PBXNativeTarget "Cloudify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12742952382B23800D05056 /* Debug */,
+				D12742962382B23800D05056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12742972382B23800D05056 /* Build configuration list for PBXNativeTarget "CloudifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12742982382B23800D05056 /* Debug */,
+				D12742992382B23800D05056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D127426F2382B23400D05056 /* Project object */;
+}
