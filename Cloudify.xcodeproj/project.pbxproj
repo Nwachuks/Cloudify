@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9EEA607E5DEA555F06A85838 /* Pods_Cloudify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03681C0D448AD1E00F628143 /* Pods_Cloudify.framework */; };
 		D127427B2382B23400D05056 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D127427A2382B23400D05056 /* AppDelegate.swift */; };
 		D12742802382B23400D05056 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D127427E2382B23400D05056 /* Main.storyboard */; };
 		D12742822382B23800D05056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D12742812382B23800D05056 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 		D127429E2382B37200D05056 /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D127429D2382B37200D05056 /* WeatherDataModel.swift */; };
 		D12742A02382B79300D05056 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D127429F2382B79300D05056 /* WeatherViewController.swift */; };
 		D12742A22382B91600D05056 /* SelectCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12742A12382B91600D05056 /* SelectCityViewController.swift */; };
+		D2A9A373EBB3459CF69C9ADA /* Pods_CloudifyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381E8B8F4FE4589468D3A38F /* Pods_CloudifyTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03681C0D448AD1E00F628143 /* Pods_Cloudify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cloudify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09B294717CD3744C60D951CF /* Pods-CloudifyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudifyTests.debug.xcconfig"; path = "Target Support Files/Pods-CloudifyTests/Pods-CloudifyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		381E8B8F4FE4589468D3A38F /* Pods_CloudifyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudifyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D905AE550E264777C733EC /* Pods-Cloudify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cloudify.debug.xcconfig"; path = "Target Support Files/Pods-Cloudify/Pods-Cloudify.debug.xcconfig"; sourceTree = "<group>"; };
 		D12742772382B23400D05056 /* Cloudify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cloudify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D127427A2382B23400D05056 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D127427F2382B23400D05056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +46,8 @@
 		D127429D2382B37200D05056 /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
 		D127429F2382B79300D05056 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		D12742A12382B91600D05056 /* SelectCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCityViewController.swift; sourceTree = "<group>"; };
+		DA7ABC852148EB8712E7897A /* Pods-Cloudify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cloudify.release.xcconfig"; path = "Target Support Files/Pods-Cloudify/Pods-Cloudify.release.xcconfig"; sourceTree = "<group>"; };
+		DAEB26973428DBA504B3922B /* Pods-CloudifyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudifyTests.release.xcconfig"; path = "Target Support Files/Pods-CloudifyTests/Pods-CloudifyTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EEA607E5DEA555F06A85838 /* Pods_Cloudify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +63,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2A9A373EBB3459CF69C9ADA /* Pods_CloudifyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2AAF108480E9AC4791CB3D81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03681C0D448AD1E00F628143 /* Pods_Cloudify.framework */,
+				381E8B8F4FE4589468D3A38F /* Pods_CloudifyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		691FC6E0D83365EEB7CE7256 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69D905AE550E264777C733EC /* Pods-Cloudify.debug.xcconfig */,
+				DA7ABC852148EB8712E7897A /* Pods-Cloudify.release.xcconfig */,
+				09B294717CD3744C60D951CF /* Pods-CloudifyTests.debug.xcconfig */,
+				DAEB26973428DBA504B3922B /* Pods-CloudifyTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D127426E2382B23400D05056 = {
 			isa = PBXGroup;
 			children = (
 				D12742792382B23400D05056 /* Cloudify */,
 				D127428E2382B23800D05056 /* CloudifyTests */,
 				D12742782382B23400D05056 /* Products */,
+				691FC6E0D83365EEB7CE7256 /* Pods */,
+				2AAF108480E9AC4791CB3D81 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,9 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D12742942382B23800D05056 /* Build configuration list for PBXNativeTarget "Cloudify" */;
 			buildPhases = (
+				6FCAC099B6B99C395C4B6188 /* [CP] Check Pods Manifest.lock */,
 				D12742732382B23400D05056 /* Sources */,
 				D12742742382B23400D05056 /* Frameworks */,
 				D12742752382B23400D05056 /* Resources */,
+				4D485A3EEA345D2E99547E07 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -150,6 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D12742972382B23800D05056 /* Build configuration list for PBXNativeTarget "CloudifyTests" */;
 			buildPhases = (
+				05276F725BAC9717DB8CC00D /* [CP] Check Pods Manifest.lock */,
 				D12742872382B23800D05056 /* Sources */,
 				D12742882382B23800D05056 /* Frameworks */,
 				D12742892382B23800D05056 /* Resources */,
@@ -221,6 +257,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05276F725BAC9717DB8CC00D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CloudifyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D485A3EEA345D2E99547E07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cloudify/Pods-Cloudify-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cloudify/Pods-Cloudify-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cloudify/Pods-Cloudify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FCAC099B6B99C395C4B6188 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cloudify-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D12742732382B23400D05056 /* Sources */ = {
@@ -390,6 +490,7 @@
 		};
 		D12742952382B23800D05056 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69D905AE550E264777C733EC /* Pods-Cloudify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -408,6 +509,7 @@
 		};
 		D12742962382B23800D05056 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA7ABC852148EB8712E7897A /* Pods-Cloudify.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -426,6 +528,7 @@
 		};
 		D12742982382B23800D05056 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09B294717CD3744C60D951CF /* Pods-CloudifyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -447,6 +550,7 @@
 		};
 		D12742992382B23800D05056 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAEB26973428DBA504B3922B /* Pods-CloudifyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
