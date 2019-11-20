@@ -35,7 +35,7 @@
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="1EY-Bm-pkk" kind="presentation" id="ziD-TG-HTn"/>
+                                    <segue destination="1EY-Bm-pkk" kind="presentation" identifier="selectCityName" id="ziD-TG-HTn"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5fg-aG-94u" userLabel="Container View">
@@ -55,10 +55,9 @@
                                         <rect key="frame" x="16" y="129" width="382" height="229"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4q1-j9-tG9" userLabel="City Label">
-                                        <rect key="frame" x="16" y="360" width="269" height="94"/>
+                                        <rect key="frame" x="16" y="360" width="382" height="94"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="94" id="oI3-MP-YTt"/>
-                                            <constraint firstAttribute="width" constant="269" id="y0C-nE-hpM"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="33"/>
                                         <color key="textColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -66,11 +65,13 @@
                                     </label>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="4q1-j9-tG9" firstAttribute="leading" secondItem="5fg-aG-94u" secondAttribute="leading" constant="16" id="5cT-VY-D8B"/>
                                     <constraint firstAttribute="trailing" secondItem="X0m-GO-eoD" secondAttribute="trailing" constant="16" id="Ad5-76-irJ"/>
                                     <constraint firstItem="X0m-GO-eoD" firstAttribute="top" secondItem="Ff3-nv-Zb9" secondAttribute="bottom" constant="2" id="KkV-lr-Im3"/>
                                     <constraint firstItem="X0m-GO-eoD" firstAttribute="leading" secondItem="5fg-aG-94u" secondAttribute="leading" constant="16" id="U2n-3F-Y4E"/>
                                     <constraint firstItem="4q1-j9-tG9" firstAttribute="top" secondItem="X0m-GO-eoD" secondAttribute="bottom" constant="2" id="eDY-TW-3bA"/>
                                     <constraint firstItem="Ff3-nv-Zb9" firstAttribute="top" secondItem="5fg-aG-94u" secondAttribute="top" id="fUa-yk-fck"/>
+                                    <constraint firstAttribute="trailing" secondItem="4q1-j9-tG9" secondAttribute="trailing" constant="16" id="jQI-js-eK1"/>
                                     <constraint firstAttribute="bottom" secondItem="4q1-j9-tG9" secondAttribute="bottom" id="q0m-CO-2nZ"/>
                                     <constraint firstAttribute="trailing" secondItem="Ff3-nv-Zb9" secondAttribute="trailing" constant="16" id="sHq-3G-yQh"/>
                                     <constraint firstItem="4q1-j9-tG9" firstAttribute="leading" secondItem="5fg-aG-94u" secondAttribute="leading" constant="16" id="skq-wW-CXW"/>
