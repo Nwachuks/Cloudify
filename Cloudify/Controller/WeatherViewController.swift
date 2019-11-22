@@ -71,8 +71,8 @@ class WeatherViewController: UIViewController, CLLocationManagerDelegate, Select
     }
     
     
-    //MARK: - UI Updates
-    //Write the updateUIWithWeatherData method here:
+    // MARK: - UI Updates
+    // updateUI With Weather Data
     func updateUI() {
         cityLabel.text = weatherDataModel.city
         temperatureLabel.text = String(weatherDataModel.temperature)
