@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -87,7 +87,6 @@
 				09B294717CD3744C60D951CF /* Pods-CloudifyTests.debug.xcconfig */,
 				DAEB26973428DBA504B3922B /* Pods-CloudifyTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -117,8 +116,6 @@
 				D127429C2382B2DB00D05056 /* Controller */,
 				D127429B2382B2D300D05056 /* View */,
 				D127429A2382B2BE00D05056 /* Model */,
-				D12742812382B23800D05056 /* Assets.xcassets */,
-				D12742832382B23800D05056 /* LaunchScreen.storyboard */,
 				D12742862382B23800D05056 /* Info.plist */,
 			);
 			path = Cloudify;
@@ -144,6 +141,8 @@
 		D127429B2382B2D300D05056 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D12742812382B23800D05056 /* Assets.xcassets */,
+				D12742832382B23800D05056 /* LaunchScreen.storyboard */,
 				D127427E2382B23400D05056 /* Main.storyboard */,
 			);
 			path = View;
